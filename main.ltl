@@ -1,0 +1,15 @@
+// ltl-pop3-read/main.ltl
+//
+// POP3 (RFC 1939) client for fetching mailbox items.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-pop3-read v0.1.0")
+    io::println("POP3 (RFC 1939) client for fetching mailbox items.")
+    0
+}
